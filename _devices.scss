@@ -92,13 +92,15 @@ section {
   @include breakpoint-min($bp-lg) {
     display: flex;
     opacity: 1;
+    z-index: 10;
     width: 100vw;
     text-transform: capitalize;
     background: initial;
+    min-height: auto;
     position: absolute;
-    top: 50%;
+    top: 38%;
     left: 50%;
-    transform: translate(-33%, -6%);
+    transform: translate(-33%, -130%);
   }
   
  
